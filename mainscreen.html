@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+        <title>Music Player</title>
+    </head>
+    <body>
+        <audio id = 'playedSong' src="/Audios/Jack_Harlow_-_First_Class_Official_(getmp3.pro).mp3"></audio>
+        <audio id = 'playedSong' src="/Audios/Kendrick_Lamar_-_Die_Hard_ft_Blxst_(getmp3.pro).mp3"></audio>
+        <audio id = 'playedSong' src="/Audios/NF_-_TRUST_Audio_ft_Tech_N9ne_(getmp3.pro).mp3"></audio>
+        <audio id = 'playedSong' src="/Audios/Skylar_Grey_-_Last_One_Standing_ft_(getmp3.pro).mp3"></audio>
+        <div id="container">
+            <video id = 'playedVideo' src="/Audios/jack.mp4"></video>
+            <video id = 'playedVideo' src="/Audios/kendrick.mp4"></video>
+            <video id = 'playedVideo' src="/Audios/nf.mp4"></video>
+            <video id = 'playedVideo' src="/Audios/eminem.mp4"></video>
+            <div id="musicPlayer">
+                <div id="songPhoto">
+                    
+                </div>
+                <div id="buttons">
+                    <button id="previousSong" onclick="previousSong()">Previous</button>
+                    <button id="playPause" onclick="playPause()">Play</button>
+                    <button id="nextSong" onclick="nextSong()">Next</button>
+                </div>
+            </div>
+        </div>
+        <script src="/music.js"></script>
+    </body>
+</html>
